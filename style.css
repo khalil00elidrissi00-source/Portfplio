@@ -332,3 +332,26 @@
       text-shadow:none;
     }
   }
+  @media (max-width:720px){
+    .quest{grid-template-columns:1fr;}
+    .quest .qicon{border-right:none; border-bottom:var(--px) solid var(--cyan); padding:24px;}
+    .hero .wrap{grid-template-columns:1fr;}
+    
+    
+    .contact-box {
+      padding: 20px 16px;
+    }
+    .contact-box h2 {
+      font-size: 18px; 
+    }
+    .contact-box .sub {
+      font-size: 16px;
+    }
+    .social-row {
+      gap: 10px;
+    }
+    .social-row a {
+      font-size: 10px;
+      padding: 12px 14px;
+    }
+  }
